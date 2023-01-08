@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/question_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="What is Your Goal?"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/muscle_toning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:onClick="muscleToningRegisterAnswer"
+        android:text="Muscle Toning and Growth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_title" />
+
+    <Button
+        android:id="@+id/stark_gain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="starkGainRegisterAnswer"
+        android:text="Strenght Gain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/muscle_toning"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <Button
+        android:id="@+id/max_stark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="maxStarkRegisterAnswer"
+        android:text="Maximize Strenght"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stark_gain"
+        app:layout_constraintVertical_bias="0.245" />
+</androidx.constraintlayout.widget.ConstraintLayout>

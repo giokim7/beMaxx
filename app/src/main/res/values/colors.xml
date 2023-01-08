@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!-- created with http://meyerweb.com/eric/tools/color-blend/#FF1700::1:hex -->
+    <color name="material100OrangeYellow">#FFFFD1</color>
+    <color name="material150OrangeYellow">#FFFFB9</color>
+    <color name="material200OrangeYellow">#FFFFA2</color>
+    <color name="material250OrangeYellow">#FFFF74</color>
+    <color name="material300OrangeYellow">#FFFF46</color>
+    <color name="material350OrangeYellow">#FFFF00</color>
+    <color name="material400OrangeYellow">#FFE800</color>
+    <color name="material450OrangeYellow">#FFD100</color>
+    <color name="material500OrangeYellow">#FFB900</color>
+    <color name="material550OrangeYellow">#FFA200</color>
+    <color name="material600OrangeYellow">#FF8B00</color>
+    <color name="material650OrangeYellow">#FF7400</color>
+    <color name="material700OrangeYellow">#FF5D00</color>
+    <color name="material750OrangeYellow">#FF4600</color>
+    <color name="material800OrangeYellow">#FF2E00</color>
+    <color name="material850OrangeYellow">#FF1700</color>
+</resources>

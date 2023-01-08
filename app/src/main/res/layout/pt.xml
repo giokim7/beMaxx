@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/testPT"
+        android:layout_width="168dp"
+        android:layout_height="57dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <TextView
+        android:id="@+id/testPT2"
+        android:layout_width="168dp"
+        android:layout_height="57dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <Button
+        android:id="@+id/day1_3"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="56dp"
+        android:text="Traning 1: Chest - Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
+        android:onClick="goToTraining"
+        app:layout_constraintTop_toBottomOf="@+id/testPT" />
+
+    <Button
+        android:id="@+id/day2_3"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="108dp"
+        android:text="Traning 2: Shoulders - Arms"
+        android:onClick="goToTraining"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/testPT" />
+
+    <Button
+        android:id="@+id/day3_3"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="160dp"
+        android:text="Traning 3: Legs - Abs"
+        android:onClick="goToTraining"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/testPT" />
+
+    <Button
+        android:id="@+id/day1_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Training: Upper Body"
+        android:visibility="invisible"
+        android:onClick="goToTraining"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testPT" />
+
+    <Button
+        android:id="@+id/day2_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Training: Lower Body"
+        android:onClick="goToTraining"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testPT" />
+
+    <Button
+        android:id="@+id/day3_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:text="Training: Upper Body"
+        android:onClick="goToTraining"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testPT" />
+
+    <Button
+        android:id="@+id/day4_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:text="Training: Lower Body"
+        android:onClick="goToTraining"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testPT" />
+</androidx.constraintlayout.widget.ConstraintLayout>
